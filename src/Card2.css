@@ -1,23 +1,6 @@
-.jpmobileContent {
-	display: flex;
-}
-
-.jpmobile {
-	display: flex;
+#card2 {
+	width: 100%;
 	position: relative;
-	left: 90px;
-	top: 90px;
-	padding: 0px;
-	margin: 0px;
-}
-
-.plusIcon2 {
-	position: absolute;
-	top: 150px;
-	left: 60px;
-	color: #dadada;
-}
-
-.plusIcon2:hover {
-	color: black;
+	top: -100px;
+	left: -20%;
 }

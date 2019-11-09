@@ -9,7 +9,7 @@ class Card3 extends Component {
 				<div
 					className="backgroundChinese"
 					style={{
-						height: '480px',
+						height: '500px',
 						width: '378px',
 						position: 'relative',
 						overflow: 'scroll',
@@ -28,7 +28,7 @@ class Card3 extends Component {
 							overflow="auto"
 						>
 							<img
-								src="https://i.imgur.com/fxW6FGg.jpg"
+								src="https://i.imgur.com/8L40sbY.jpg"
 								alt="Japanese Background"
 								className="backgroundImg"
 								style={{

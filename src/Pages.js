@@ -7,7 +7,7 @@ class Pages extends Component {
 			<div className="bottom-pages">
 				<nav aria-label="footer">
 					<ul style={{ padding: 0 }}>
-						<li className="btn btn-outline-dark rounded-0">
+						<li className="btn btn-outline-dark rounded-0 ">
 							<a className="page-button" href="https://www.correiagoncalves.com">
 								Page 1
 							</a>
@@ -17,9 +17,15 @@ class Pages extends Component {
 								Page 2
 							</a>
 						</li>
-						<li className="btn btn-outline-dark rounded-0 active">
-							<a className="page-button" href="https://home3.correiagoncalves.com/">
+
+						<li className="btn btn-outline-dark rounded-0">
+							<a className="page-button" href="https://home3.correiagoncalves.com">
 								Page 3
+							</a>
+						</li>
+						<li className="btn btn-outline-dark rounded-0 active">
+							<a className="page-button" href="https://home3.correiagoncalves.com">
+								Page 4
 							</a>
 						</li>
 					</ul>
