@@ -1,0 +1,13 @@
+.backgroundImg {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+@media screen and (max-width: 480px) {
+	.backgroundChinese {
+		width: 355px;
+	}
+}
