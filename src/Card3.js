@@ -17,7 +17,7 @@ class Card3 extends Component {
 						margin: '0',
 					}}
 				>
-					<div style={{ height: '480px', width: '250px', padding: '0', margin: '0' }}>
+					<div style={{ height: '480px', padding: '0', margin: '0' }}>
 						<Draggable
 							bounds={(0, 10, 0, 10)}
 							handle=".handle"

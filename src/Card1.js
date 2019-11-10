@@ -23,7 +23,7 @@ class Card1 extends Component {
 									alt="B&W Flower"
 									id="card1"
 									overflow="hidden"
-									style={{ height: 780, width: 480 }}
+									style={{ height: 780, width: 495 }}
 								/>
 							</div>
 						</Draggable>
