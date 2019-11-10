@@ -36,6 +36,7 @@ class Search extends Component {
 							<a
 								href="https://nadiacoralves.tumblr.com/"
 								target="_blank"
+								rel="noopener noreferrer"
 								style={{ textDecoration: 'none' }}
 							>
 								🥑
