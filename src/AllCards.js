@@ -8,7 +8,7 @@ class AllCards extends Component {
 	render() {
 		return (
 			<div className="container mt-1 mainCards">
-				<div className="row">
+				<div className="row ">
 					<div className="card-body p-0 col-md-4 border border-dark">
 						<Card1 />
 					</div>

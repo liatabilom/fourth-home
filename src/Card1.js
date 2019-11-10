@@ -5,19 +5,30 @@ import './Card1.css';
 class Card1 extends Component {
 	render() {
 		return (
-			<div
-				style={{
-					height: '500px',
-					width: '510px',
-					position: 'relative',
-					overflow: 'hidden',
-				}}
-			>
-				<Draggable onStart={() => false}>
+			<div style={{ height: 480 }}>
+				<div
+					className="backgroundChinese"
+					style={{
+						height: '480px',
+						width: '378px',
+						position: 'relative',
+						overflow: 'hidden',
+					}}
+				>
 					<div>
-						<img src="https://i.imgur.com/Kf1mT6O.jpg" alt="B&W Flower" id="card1" />
+						<Draggable onStart={() => false}>
+							<div>
+								<img
+									src="https://i.imgur.com/Kf1mT6O.jpg"
+									alt="B&W Flower"
+									id="card1"
+									overflow="hidden"
+									style={{ height: 780, width: 480 }}
+								/>
+							</div>
+						</Draggable>
 					</div>
-				</Draggable>
+				</div>
 			</div>
 		);
 	}
