@@ -8,26 +8,34 @@ class Card2 extends Component {
 		return (
 			<div style={{ height: 480 }}>
 				<div
-					className="backgroundChinese"
 					style={{
 						height: '480px',
 						width: '378px',
 						position: 'relative',
-						overflow: 'hidden',
+						overflow: 'scroll',
 						padding: '0',
 						margin: '0',
 					}}
 				>
-					<div>
-						<Draggable onStart={() => false}>
-							<div>
-								<img
-									src="https://i.imgur.com/KsoUmnQ.jpg"
-									alt="B&W Flower"
-									id="card2"
-									style={{ height: 680, width: 500 }}
-								/>
-							</div>
+					<div style={{ height: '480px', padding: '0', margin: '0' }}>
+						<Draggable
+							bounds={(0, 10, 0, 10)}
+							handle=".handle"
+							grid={(25, 15)}
+							allowAnyClick={true}
+							disabled={true}
+							dragHandlers={false}
+							overflow="auto"
+						>
+							<img
+								src="https://i.imgur.com/KsoUmnQ.jpg"
+								alt="B&W Woman draggable"
+								className="backgroundImg"
+								style={{
+									width: 600,
+									height: 800,
+								}}
+							/>
 						</Draggable>
 					</div>
 				</div>

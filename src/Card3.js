@@ -7,7 +7,6 @@ class Card3 extends Component {
 		return (
 			<div style={{ height: 480 }}>
 				<div
-					className="backgroundChinese"
 					style={{
 						height: '480px',
 						width: '378px',
@@ -29,7 +28,7 @@ class Card3 extends Component {
 						>
 							<img
 								src="https://i.imgur.com/8L40sbY.jpg"
-								alt="Japanese Background"
+								alt="B&W Woman draggable"
 								className="backgroundImg"
 								style={{
 									width: 800,
