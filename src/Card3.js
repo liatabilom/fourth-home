@@ -9,7 +9,6 @@ class Card3 extends Component {
 				<div
 					style={{
 						height: '480px',
-						width: '378px',
 						position: 'relative',
 						overflow: 'scroll',
 						padding: '0',
